@@ -1,39 +1,53 @@
 {
-    "clientes" : [
-        {
-          "id": 1,
-          "nombre": "Juan",
-          "telefono": 102013313,
-          "email": "juan@juan.com",
-          "empresa": "BAIN & COMPANY"
-        },
-        {
-          "id": 2,
-          "nombre": "Karen",
-          "telefono": 138198313,
-          "email": "karen@juan.com",
-          "empresa": "GOOGLE"
-        },
-        {
-          "id": 3,
-          "nombre": "Josue",
-          "telefono": 31983913,
-          "email": "josue@juan.com",
-          "empresa": "TWITTER"
-        },
-        {
-          "id": 4,
-          "nombre": "Miguel",
-          "telefono": 319381983,
-          "email": "miguel@juan.com",
-          "empresa": "FACEBOOK"
-        },
-        {
-          "id": 5,
-          "nombre": "Pedro",
-          "telefono": 1398198938,
-          "email": "pedro@juan.com",
-          "empresa": "LINKEDIN"
-        }
-      ]
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "telefono": 102013313,
+      "email": "juan@juan.com",
+      "empresa": "BAIN & COMPANY"
+    },
+    {
+      "id": 2,
+      "nombre": "Karen",
+      "telefono": 138198313,
+      "email": "karen@juan.com",
+      "empresa": "GOOGLE"
+    },
+    {
+      "id": 3,
+      "nombre": "Josue",
+      "telefono": 31983913,
+      "email": "josue@juan.com",
+      "empresa": "TWITTER"
+    },
+    {
+      "id": 4,
+      "nombre": "Miguel",
+      "telefono": 319381983,
+      "email": "miguel@juan.com",
+      "empresa": "FACEBOOK"
+    },
+    {
+      "id": 5,
+      "nombre": "Pedro",
+      "telefono": 1398198938,
+      "email": "pedro@juan.com",
+      "empresa": "LINKEDIN"
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "nombre": "jose",
+      "empresa": "casa",
+      "email": "josevalerio2703@gmail.com",
+      "telefono": "04268806402",
+      "notas": "asdasdasdas",
+      "id": 8
+    }
+  ]
 }

@@ -1,10 +1,12 @@
-import { useNavigate, Form, useActionData } from "react-router-dom";
+import { useNavigate, Form, useActionData, redirect } from "react-router-dom";
 import Formulario from "../components/Formulario";
 import Error from "../components/Error";
+import { agregarCliente } from "../data/clientes";
 
 export async function action({request}) {
   const formData = await request.formData()
   const datos = Object.fromEntries(formData)
+  
 
   const email = formData.get('email')
   let regex = new RegExp("([!#-'*+/-9=?A-Z^-~-]+(\.[!#-'*+/-9=?A-Z^-~-]+)*|\"\(\[\]!#-[^-~ \t]|(\\[\t -~]))+\")@([!#-'*+/-9=?A-Z^-~-]+(\.[!#-'*+/-9=?A-Z^-~-]+)*|\[[\t -Z^-~]*])");
@@ -22,7 +24,8 @@ export async function action({request}) {
   if(Object.keys(errores).length){
   return errores
   }
-  return null
+  await agregarCliente(datos)
+  return redirect('/')
 }
 
 const NuevoCliente = () => {
