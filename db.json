@@ -36,9 +36,19 @@
       "empresa": "LINKEDIN"
     },
     {
+      "nombre": "casa",
+      "empresa": "casa",
+      "email": "josevalerio2703@gmail.com",
+      "telefono": "04268806402",
+      "notas": "casa",
       "id": 6
     },
     {
+      "nombre": "Grand Theft Auto V",
+      "empresa": "casa",
+      "email": "josevalerio2703@gmail.com",
+      "telefono": "04268806402",
+      "notas": "ascdas",
       "id": 7
     },
     {
